@@ -8,7 +8,7 @@ d3.json(queryUrl).then(function (data) {
   });
 
 function markerSize(magnitude) {
-    return magnitude * 5000
+    return magnitude * 20000
 }
 
 function markerColor(depth) {
